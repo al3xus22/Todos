@@ -1,5 +1,6 @@
 import {CSSProperties, ReactNode} from "react";
 import styles from './Typography.module.scss';
+import React from 'react';
 
 interface ITypographyProps {
     children?: ReactNode,

@@ -1,6 +1,7 @@
-import Container from './components/Container/Container.tsx'
-import List from "./components/List/List.tsx"
-import Title from "./components/Title/Title.tsx"
+import Container from './components/Container/Container'
+import List from "./components/List/List"
+import Title from "./components/Title/Title"
+import React from 'react';
 
 function App() {
   return (

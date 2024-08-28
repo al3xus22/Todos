@@ -1,7 +1,8 @@
 import {Button} from '@mui/material'
 import styles from './TodoFooter.module.scss'
-import Typography from "../Typography/Typography.tsx";
-import {FilterType} from "../../types/types.ts";
+import Typography from "../Typography/Typography";
+import {FilterType} from "../../types/types";
+import React from 'react';
 
 interface ITodoFooter {
     notCompletedTodos: number,

@@ -1,13 +1,13 @@
 import styles from './Card.module.scss'
-import {ITodo} from "../../types/types.ts";
-import Typography from "../Typography/Typography.tsx";
+import {ITodo} from "../../types/types";
+import Typography from "../Typography/Typography";
 import {Checkbox, IconButton, TextField} from "@mui/material";
 import CheckCircleOutlineIcon from '@mui/icons-material/CheckCircleOutline';
 import RadioButtonUncheckedIcon from '@mui/icons-material/RadioButtonUnchecked';
 import DeleteIcon from '@mui/icons-material/Delete';
 import EditIcon from '@mui/icons-material/Edit';
 import {observer} from "mobx-react-lite";
-import {todoStore} from "../../store/todoStore.ts";
+import {todoStore} from "../../store/todoStore";
 import React, {useState} from "react";
 
 interface ICardProps {

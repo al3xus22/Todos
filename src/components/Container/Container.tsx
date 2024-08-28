@@ -1,5 +1,6 @@
 import {ReactNode} from 'react'
 import styles from './Container.module.scss'
+import React from 'react';
 
 interface IContainer {
     children?: ReactNode

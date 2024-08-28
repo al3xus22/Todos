@@ -1,11 +1,12 @@
 import styles from './List.module.scss'
-import ToDoInput from "../ToDoInput/ToDoInput.tsx";
+import ToDoInput from "../ToDoInput/ToDoInput";
 import {useMemo, useState} from "react";
-import Card from "../Card/Card.tsx";
-import {FilterType} from "../../types/types.ts";
-import TodoFooter from "../TodoFooter/TodoFooter.tsx";
-import {todoStore} from "../../store/todoStore.ts";
+import Card from "../Card/Card";
+import {FilterType} from "../../types/types";
+import TodoFooter from "../TodoFooter/TodoFooter";
+import {todoStore} from "../../store/todoStore";
 import { observer } from 'mobx-react-lite';
+import React from 'react';
 
 const List = observer(() => {
     const { todos, addTodo, removeCompletedTodos, notCompletedTodosCount } = todoStore

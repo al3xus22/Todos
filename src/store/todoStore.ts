@@ -1,5 +1,5 @@
 import { makeAutoObservable } from "mobx";
-import {ITodo} from "../types/types.ts";
+import {ITodo} from "../types/types";
 
 interface ITodoStore {
     todos: ITodo[];
