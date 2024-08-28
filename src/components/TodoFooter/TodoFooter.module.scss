@@ -1,0 +1,30 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto;
+  padding: 10px 20px;
+  border-top: 1px solid #e0e0e0;
+  position: relative;
+}
+
+.buttonsGroup {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  display: flex;
+  justify-content: center;
+}
+
+.footer button {
+  padding: 0 10px;
+  text-transform: none;
+}
+
+.footer .activeButton {
+  outline: 1px solid var(--title-color);
+}
+
+.footer span {
+  opacity: 0.4;
+}

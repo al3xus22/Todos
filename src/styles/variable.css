@@ -1,0 +1,9 @@
+:root {
+    --font-large: 150px;
+    --font-middle: 30px;
+    --font-small: 20px;
+    --font-family-title: 'Prata', sans-serif;
+    --font-family-main: 'Arial', sans-serif;
+    --background-color: #f0f0f0;
+    --title-color: #dec1c1;
+}

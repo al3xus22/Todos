@@ -1,0 +1,24 @@
+.listContainer {
+  min-width: 610px;
+  margin: 0 auto;
+  height: calc(100% - 250px);
+  max-width: 900px;
+}
+
+.list {
+  height: 100%;
+  background-color: #ffffff;
+  box-shadow:
+          4px 4px 24px 0 rgba(0,0,0,0.15),
+          0 13px 0 -5px #eee,
+          4px 8px 24px 0 rgba(0,0,0,0.15),
+          0 26px 0 -10px #eee,
+          4px 15px 24px 0 rgba(0,0,0,0.2);
+  display: flex;
+  flex-direction: column;
+}
+
+.cardsContainer {
+  flex: 1;
+  overflow-y: auto;
+}

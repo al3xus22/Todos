@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+@import './styles/variable.css';
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: var(--font-family-main);
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
